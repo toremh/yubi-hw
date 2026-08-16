@@ -1,6 +1,6 @@
-YUBI Glove Assy_PARTS LIST,,,,,,,,,
-,,,,,,,,,YUBI Glove Assy_Right-handed
-No.,PART No.,TYPE,PART NAME,Qty.,MATERIAL,REMARKS,FILE NAME (STL/STEP),,
+YUBI Glove Assy_PARTS LIST,,,,,,,,,,
+,,,,,,,,,,YUBI Glove Assy_Right-handed
+No.,PART No.,TYPE,PART NAME,Qty.,MATERIAL,REMARKS,FILE NAME (STL/STEP),Vendor,Link
 1,UPPER PLATE_AS5601,3D-PRINTED ,UPPER PLATE_AS5601,1,PLA_BLACK,,UPPER PLATE_AS5601,,
 2,UNDER PLATE,3D-PRINTED ,UNDER PLATE,1,PLA_BLACK,,UNDER PLATE,,
 3,FINGER ATTACHMENT_R_Glove,3D-PRINTED ,FINGER ATTACHMENT_R_Glove,1,PLA_BLACK,,FINGER ATTACHMENT_R_Glove,,
@@ -17,37 +17,37 @@ No.,PART No.,TYPE,PART NAME,Qty.,MATERIAL,REMARKS,FILE NAME (STL/STEP),,
 14,COVER_CABLE_R,3D-PRINTED ,COVER_CABLE_R,1,PLA_BLACK,Right,COVER_CABLE_R,,
 15,HOLDER_Quest_L,3D-PRINTED ,HOLDER_Quest_L,1,PLA_BLACK,Left,HOLDER_Quest_L,,
 16,COVER_PCB_L,3D-PRINTED ,COVER_PCB_L,1,PLA_BLACK,Left,COVER_PCB_L,,
-17,COVER_CABLE_L,3D-PRINTED ,COVER_CABLE_L,1,PLA_BLACK,Left,COVER_CABLE_L,,YUBI Glove Assy_Left-handed
+17,COVER_CABLE_L,3D-PRINTED ,COVER_CABLE_L,1,PLA_BLACK,Left,COVER_CABLE_L,,,YUBI Glove Assy_Left-handed
 18,MAGNET STAY_AS5601,3D-PRINTED ,MAGNET STAY,1,PLA_BLACK,,MAGNET STAY_AS5601,,
 19,SPACER,3D-PRINTED ,SPACER,2,PLA_BLACK,,SPACER,,
-20,MetaQuestTouchPlus_R,STANDARD,MetaQuestTouchPlus Controller_R,1,N/A,Right / Standard controller for YUBI (used with Quest 3S),,,
-21,MetaQuestTouchPlus_L,STANDARD,MetaQuestTouchPlus Controller_L,1,N/A,Left / Standard controller for YUBI (used with Quest 3S),,,
-22,USB CAMERA_ELP-USBFHD01M-L180,STANDARD,CAMERA,1,N/A,,,,
-23,ESP32C6,STANDARD,PCB (ESP32C6),1,N/A,,,,
-24,AS5601,STANDARD,PCB (AS5601),1,N/A,,,,
-25,NEODYMIUM MAGNET,STANDARD,NEODYMIUM MAGNET_AS5601,1,N/A,Included with AS5601 sensor,,,
-26,UNIVERSAL PCB,STANDARD,UNIVERSAL PCB,1,N/A,,,,
-27,PIN HEADER,STANDARD,PIN HEADER,4,N/A,,,,
-28,USB CABLE TYPE-C,STANDARD,USB CABLE TYPE-C,1,N/A,,,,
-29,SSFRHQ8-15-F5-P5-T8-Q5-KC3-A12-QM2,STANDARD,SHAFT D8,2,SUS304,,,,
-30,GEAKB1.0-30-6-A-8N-QFC17-M3,STANDARD,SPUR GEAR_z30,2,S45C,,,,
-31,CB2-6,STANDARD,CAP BOLT,4,SCM435,,,,
-32,CB2.5-4,STANDARD,CAP BOLT,2,SCM435,,,,
-33,CB2.5-6,STANDARD,CAP BOLT,4,SCM435,,,,
-34,CB2.5-10,STANDARD,CAP BOLT,4,SCM435,,,,
-35,CB2.5-15,STANDARD,CAP BOLT,3,SCM435,,,,
-36,CB3-6,STANDARD,CAP BOLT,1,SCM435,,,,
-37,CBSTNR3-5,STANDARD,ULTRA LOW HEAD CAP BOLT ,2,SCM435,,,,
-38,CBSTNR3-8,STANDARD,ULTRA LOW HEAD CAP BOLT ,4,SCM435,,,,
-39,BFBJ2-4,STANDARD,CROSS-RECESSED FLAT HEAD MACHINE SCREW,1,SWCH,,,,
-40,KEG3-6,STANDARD,PARALLEL KEY,2,S45C,,,,
-41,LRLM3-6,STANDARD,KNURLED BOLT,1,SCM435,,,,
-42,SB-264040,STANDARD,INSERT,7,BRASS,,,,
-43,SB-304550,STANDARD,INSERT,2,BRASS,,,,
-44,WSSAB10-5-1,STANDARD,WASHER,2,A2017,,,,
-45,AJKTNS5-70,STANDARD,ADJUST BOLT,1,S45C,,,,
-46,HNTT5-5,STANDARD,T-SLOT NUT,1,S10C,,,,
-47,HYPER V SHEET,STANDARD,RUBBER SHEET_R,1,HYPER V SHEET,,,,
-48,HYPER V SHEET,STANDARD,RUBBER SHEET_L,1,HYPER V SHEET,,,,
+20,MetaQuestTouchPlus_R,STANDARD,MetaQuestTouchPlus Controller_R,1,N/A,Right / Standard controller for YUBI (used with Quest 3S),,meta,https://www.meta.com/quest/accessories/quest-touch-plus-controller/
+21,MetaQuestTouchPlus_L,STANDARD,MetaQuestTouchPlus Controller_L,1,N/A,Left / Standard controller for YUBI (used with Quest 3S),,meta,https://www.meta.com/quest/accessories/quest-touch-plus-controller/
+22,USB CAMERA_ELP-USBFHD01M-L180,STANDARD,CAMERA,1,N/A,,,elp,http://www.elpcctv.com/180-degree-fisheye-lens-full-hd-1080p-usb-camera-module-usb20-ov2710-color-sensor-mjpeg-p-206.html
+23,ESP32C6,STANDARD,PCB (ESP32C6),1,N/A,Seeed Studio XIAO ESP32C6,,seeedstudio,https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html
+24,AS5601,STANDARD,PCB (AS5601),1,N/A,12-bit magnetic rotary encoder breakout,,elecrow,https://www.elecrow.com/12bit-4096p-r-as5601-magnetic-rotary-encoder-module.html
+25,NEODYMIUM MAGNET,STANDARD,NEODYMIUM MAGNET_AS5601,1,N/A,Included with AS5601 sensor,,elecrow,https://www.elecrow.com/12bit-4096p-r-as5601-magnetic-rotary-encoder-module.html
+26,UNIVERSAL PCB,STANDARD,UNIVERSAL PCB,1,N/A,2.54 mm pitch prototyping board,,akizuki,https://akizukidenshi.com/catalog/r/r254pcb/
+27,PIN HEADER,STANDARD,PIN HEADER,4,N/A,2.54 mm pitch 1x40 strip (break to length),,akizuki,https://akizukidenshi.com/catalog/g/g100167/
+28,USB CABLE TYPE-C,STANDARD,USB CABLE TYPE-C,1,N/A,,,amazon,https://www.amazon.co.jp/dp/B0CX56FJJ6
+29,SSFRHQ8-15-F5-P5-T8-Q5-KC3-A12-QM2,STANDARD,SHAFT D8,2,SUS304,,,misumi,https://us.misumi-ec.com/vona2/result/?Keyword=SSFRHQ8-15-F5-P5-T8-Q5-KC3-A12-QM2
+30,GEAKB1.0-30-6-A-8N-QFC17-M3,STANDARD,SPUR GEAR_z30,2,S45C,,,misumi,https://us.misumi-ec.com/vona2/detail/110300428430/?HissuCode=GEAKB1.0-30-6-A-8N-QFC17-M3
+31,CB2-6,STANDARD,CAP BOLT,4,SCM435,,,misumi,https://us.misumi-ec.com/vona2/detail/110300239070/?HissuCode=CB2-6
+32,CB2.5-4,STANDARD,CAP BOLT,2,SCM435,,,misumi,https://us.misumi-ec.com/vona2/detail/110300239070/?HissuCode=CB2.5-4
+33,CB2.5-6,STANDARD,CAP BOLT,4,SCM435,,,misumi,https://us.misumi-ec.com/vona2/detail/110300239070/?HissuCode=CB2.5-6
+34,CB2.5-10,STANDARD,CAP BOLT,4,SCM435,,,misumi,https://us.misumi-ec.com/vona2/detail/110300239070/?HissuCode=CB2.5-10
+35,CB2.5-15,STANDARD,CAP BOLT,3,SCM435,,,misumi,https://us.misumi-ec.com/vona2/detail/110300239070/?HissuCode=CB2.5-15
+36,CB3-6,STANDARD,CAP BOLT,1,SCM435,,,misumi,https://us.misumi-ec.com/vona2/detail/110300239070/?HissuCode=CB3-6
+37,CBSTNR3-5,STANDARD,ULTRA LOW HEAD CAP BOLT ,2,SCM435,,,misumi,https://us.misumi-ec.com/vona2/detail/110302280540/?HissuCode=CBSTNR3-5
+38,CBSTNR3-8,STANDARD,ULTRA LOW HEAD CAP BOLT ,4,SCM435,,,misumi,https://us.misumi-ec.com/vona2/detail/110302280540/?HissuCode=CBSTNR3-8
+39,BFBJ2-4,STANDARD,CROSS-RECESSED FLAT HEAD MACHINE SCREW,1,SWCH,,,misumi,https://us.misumi-ec.com/vona2/detail/110302280970/?HissuCode=BFBJ2-4
+40,KEG3-6,STANDARD,PARALLEL KEY,2,S45C,,,misumi,https://us.misumi-ec.com/vona2/detail/110302681730/?HissuCode=KEG3-6
+41,LRLM3-6,STANDARD,KNURLED BOLT,1,SCM435,,,misumi,https://us.misumi-ec.com/vona2/detail/110300245210/?HissuCode=LRLM3-6
+42,SB-264040,STANDARD,INSERT,7,BRASS,Tokai Metal bit insert (M2.6),,misumi,https://jp.misumi-ec.com/vona2/detail/221000748307/?HissuCode=SB-264040
+43,SB-304550,STANDARD,INSERT,2,BRASS,Tokai Metal bit insert (M3),,misumi,https://jp.misumi-ec.com/vona2/detail/221000748307/?HissuCode=SB-304550
+44,WSSAB10-5-1,STANDARD,WASHER,2,A2017,,,misumi,https://us.misumi-ec.com/vona2/detail/110302677010/?HissuCode=WSSAB10-5-1
+45,AJKTNS5-70,STANDARD,ADJUST BOLT,1,S45C,,,misumi,https://us.misumi-ec.com/vona2/detail/110300599320/?HissuCode=AJKTNS5-70
+46,HNTT5-5,STANDARD,T-SLOT NUT,1,S10C,,,misumi,https://us.misumi-ec.com/vona2/detail/110302246150/?HissuCode=HNTT5-5
+47,HYPER V SHEET,STANDARD,RUBBER SHEET_R,1,HYPER V SHEET,Nisshin Rubber Hyper V sheet,,misumi,https://jp.misumi-ec.com/vona2/detail/223013695315/
+48,HYPER V SHEET,STANDARD,RUBBER SHEET_L,1,HYPER V SHEET,Nisshin Rubber Hyper V sheet,,misumi,https://jp.misumi-ec.com/vona2/detail/223013695315/
 49,ELASTIC BAND,STANDARD,ELASTIC BAND (8-cord elastic),1,"RUBBER+
-POLYESTER",,,,
+POLYESTER",,,amazon,https://www.amazon.co.jp/dp/B091SX2JWL
